@@ -1,7 +1,7 @@
 
 public class StudentManager  extends UserManager{
 	
-	public void scheduleclassify(Student student) {
+	public void scheduleClassify(Student student) {
 		
 		System.out.println(student.getStudentSchedule() + " program hazırlandı..");
 	}

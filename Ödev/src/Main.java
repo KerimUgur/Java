@@ -16,7 +16,7 @@ public class Main {
 		instructorManager.add(instructor);
 		instructorManager.delete(instructor);
 		instructorManager.update(instructor);
-		instructorManager.scheduleclassify(instructor);
+		instructorManager.scheduleClassify(instructor);
 		
 		System.out.println("------------------");
 		
@@ -25,7 +25,7 @@ public class Main {
 		studentManager.add(student);
 		studentManager.delete(student);
 		studentManager.update(student);
-		studentManager.scheduleclassify(student);
+		studentManager.scheduleClassify(student);
 		
 
 	}
